@@ -1,7 +1,7 @@
 
     const linksSocialMedia = {
       github: "kari-osk",
-      youtube: "JakelinyGracielly",
+      linkedin: "karinaosuka",
       instagram: "kari.osk",
       facebook: "maykbrito",
       twitter: "maykbrito"
@@ -26,7 +26,7 @@
         userBio.textContent = data.bio
         userLink.href = data.html_url
         userImage.src = data.avatar_url
-        userLogin.textContent = data.login
+        userLoginGit.textContent = data.login
       })  
     }
     getGitHubProfileInfos()
